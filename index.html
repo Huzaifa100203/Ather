@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+  <div class="navbar position-fixed fixed-top " style="background: transparent; background-color: white;">
+    <div class="left-bar">
+      <img src="ather-logo.svg" alt="">
+      <li>Rizta</li>
+      <li>450 Series <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+          <path fill="none" stroke="#6f6f6f" stroke-linecap="round" stroke-linejoin="round" d="m7 10l5 5l5-5" />
+        </svg></li>
+    </div>
+    <div class="right-bar">
+      <li>Investor Relations <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+          <path fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" d="m7 10l5 5l5-5" />
+        </svg></li>
+      <li>Charging</li>
+      <li>Smart Helmets</li>
+      <li>Shop</li>
+      <li>Locate Us</li>
+      <img src="flag-india.svg" alt="">
+      <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="1.5em" viewBox="0 0 24 24">
+        <path fill="black" d="M3 4h18v2H3zm6 7h12v2H9zm-6 7h18v2H3z" />
+      </svg>
+    </div>
+
+  </div>
+ 
+  <div id="carouselExampleAutoplaying" class="carousel slide" style="margin-top: 40px;" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="./ather 450.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption  d-md-flex  justify-content-start flex-md-column">
+          <h1 style="margin-bottom: 30px; font-size: 46px;">Ather 450</h1>
+          <h4 style="text-align: left;">Bring home an Ather 450 this festive season <br> and enjoy benefits up to <em
+              style="font-style: normal; color: rgb(242, 110, 44);">₹25000</em></h4>
+          <span><button class="btn bg-light text-dark" style="width: 150px; height: 50px;">Know more</button>
+            <button class="btn text-light"
+              style="width: 170px; height: 50px; background-color: rgb(159, 159, 159); opacity: 90%;">Book a Test
+              ride</button></span>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./rizta.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-flex align-items-start flex-md-column">
+          <h1 style="margin-bottom: 30px; font-size: 46px;">Meet Rizta</h1>
+          <h4>From our family to yours.</h4>
+          <span><button class="btn bg-light text-dark" style="width: 130px; height: 50px;">Book now</button>
+            <button class="btn text-light"
+              style="width: 170px; height: 50px; background-color: rgb(159, 159, 159); opacity: 90%;">Explore
+              Rizta</button></span>
+
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./ride unplanned.webp" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-xxl-flex mb-4 align-items-start flex-xxl-column">
+          <h1 style="margin-bottom: 30px; font-size: 46px;">Ride unplanned </h1>
+          <h4>With 2700+ Charging stations</h4>
+          <span><button class="btn bg-light text-dark" style="width: 170px; height: 50px;">Book a Test ride</button>
+            <button class="btn text-light"
+              style="width: 170px; height: 50px; background-color: rgb(159, 159, 159); opacity: 90%;">Book
+              now</button></span>
+
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <video src="Smart Helmets.mp4" autoplay loop muted width="100%" height="100%"></video>
+        <div class="carousel-caption d-none d-xxl-flex mb-4 align-items-start flex-xxl-column">
+          <h1 style="margin-bottom: 30px; font-size: 46px; color: black;">Smart Helmets</h1>
+          <span><button class="btn bg-light text-dark" style="width: 130px; height: 50px;">Know more</button>
+            <button class="btn text-light"
+              style="width: 170px; height: 50px; background-color: rgb(159, 159, 159); opacity: 90%;">Pre-Book Halo
+            </button></span>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="main-container">
+    <div class="thrill">
+      <h1>All thrills. All electric.</h1>
+      <p>Presenting all-new electric scooters from Ather. Built to outperform <br>
+        both EV scooters and petrol scooters alike, with all the style, smarts <br>
+        and speed you need.</p>
+    </div>
+    <div class="pick-section">
+      <div>Pick your Ather</div>
+      <div class="top-card">
+        <div class="card rounded mb-3 p-5" style="width: 75rem; height: 22rem; border: none;">
+          <div class="card-body w-50 d-flex flex-column align-items-start justify-content-around">
+            <h5 class="card-title">Ather Rizta</h5>
+            <p class="card-text  text-secondary">Starting at ₹ 1 09 999</p>
+            <p class="card-text  text-secondary">Or Flexipay ₹ 2 199/month <svg xmlns="http://www.w3.org/2000/svg"
+                width="1.2em" height="1.2em" viewBox="0 0 24 24">
+                <path fill="black"
+                  d="M11.5 16.5h1V11h-1zm.5-6.923q.262 0 .439-.177t.176-.439t-.177-.438T12 8.346t-.438.177t-.177.439t.177.438t.438.177M12.003 21q-1.867 0-3.51-.708q-1.643-.709-2.859-1.924t-1.925-2.856T3 12.003t.709-3.51Q4.417 6.85 5.63 5.634t2.857-1.925T11.997 3t3.51.709q1.643.708 2.859 1.922t1.925 2.857t.709 3.509t-.708 3.51t-1.924 2.859t-2.856 1.925t-3.509.709M12 20q3.35 0 5.675-2.325T20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20m0-8" />
+              </svg></p>
+            <span> <a href="#" class="btn btn-dark">Book now</a>
+              <a class="text-dark">Learn more </a></span>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-card">
+        <div class="card" style="width: 23rem; border: none;">
+          <img src="450s.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ather 450X</h5>
+            <p class=" text-secondary">Starting at ₹ 1 15 599</p>
+            <p class=" text-secondary">Or Flexipay ₹ 2 475/month </p>
+            <span> <a href="#" class="btn btn-dark">Book a test ride</a>
+              <a class="text-secondary">Learn more </a></span>
+          </div>
+        </div>
+        <div class="card" style="width: 23rem; border: none;">
+          <img src="450x.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ather 450X</h5>
+            <p class=" text-secondary">Starting at ₹ 1 15 599</p>
+            <p class=" text-secondary">Or Flexipay ₹ 2 789/month </p>
+            <span> <a href="#" class="btn btn-dark">Book a test ride</a>
+              <a class="text-secondary">Learn more </a></span>
+          </div>
+        </div>
+        <div class="card" style="width: 23rem; border: none;">
+          <img src="450apex.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ather 450 Apex</h5>
+            <p class=" text-secondary">Starting at ₹ 1 15 599</p>
+            <p class=" text-secondary">Or Flexipay ₹ 3 439/month </p>
+            <span> <a href="#" class="btn btn-dark">Book a test ride</a>
+              <a class="text-secondary">Learn more </a></span>
+          </div>
+        </div>
+      </div>
+      <a href="" style="text-decoration: none; color: black; line-height: 30px; border-bottom: 1px solid black;">Compare
+        Models <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 40 40">
+          <path fill="black"
+            d="M24.73 28.146a.5.5 0 0 0 .36-.153l7.359-7.631a.5.5 0 0 0 0-.693l-7.391-7.662a.5.5 0 1 0-.72.693l7.056 7.315l-7.024 7.284a.5.5 0 0 0 .36.847" />
+          <path fill="black" d="M7.91 20.515h24.18a.5.5 0 0 0 0-1H7.91a.5.5 0 0 0 0 1" />
+        </svg></a>
+    </div>
+    <div class="card card3 w-75" style="height: 500px;">
+      <div class="card-body d-flex align-items-start flex-column justify-content-center"
+        style="height: 100px; padding: 150px;">
+        <h5 class="card-title" style="color: rgb(49, 169, 62);">Ather Grid <em
+            style="font-style: normal; font-size: 13px; color: rgb(49, 169, 62);">TM</em></h5>
+        <p class="card-text text-light " style="font-size: 42px;">India’s largest <br>
+          EV two-wheeler <br>
+          fast charging <br> network</p>
+        <a href="#"
+          style="color: white; text-decoration: none; line-height: 30px; border-bottom: 1px solid white;">Learn more
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 32 32">
+            <path fill="white"
+              d="m18.72 6.78l-1.44 1.44L24.063 15H4v2h20.063l-6.782 6.78l1.44 1.44l8.5-8.5l.686-.72l-.687-.72z" />
+          </svg></a>
+      </div>
+    </div>
+
+    <div class="space-section">
+      <img src="space.webp" alt="">
+      <div class="box">
+        <h5>Ather Space</h5>
+        <p>Take back all the answers. <br> And a great test ride <br>
+          experience.</p>
+        <a href="">Locate experience centre <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em"
+            viewBox="0 0 24 24">
+            <path fill="black" fill-rule="evenodd" d="M18.5 12.214a1 1 0 0 0-1-1H5a1 1 0 1 0 0 2h12.5a1 1 0 0 0 1-1"
+              clip-rule="evenodd" />
+            <path fill="black" fill-rule="evenodd"
+              d="M20 12.214a1 1 0 0 0-.293-.707l-4.5-4.5a1 1 0 1 0-1.414 1.414l3.793 3.793l-3.793 3.793a1 1 0 0 0 1.414 1.415l4.5-4.5a1 1 0 0 0 .293-.708"
+              clip-rule="evenodd" />
+          </svg></a>
+        <span>
+          <h4>165+</h4>
+          <p>Cities</p>
+        </span>
+        <span>
+          <h4>225+</h4>
+          <p>Ather Space</p>
+        </span>
+      </div>
+    </div>
+
+    <div class="ownership">
+      <h1>Ownership taken care of.</h1>
+      <div class="grid">
+        <div class="card2"><img src="Shield_check_1_50eba4919a.svg" alt="">
+          <h4>Ather Battery Protect <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em"
+              viewBox="0 0 24 24">
+              <path fill="white"
+                d="M9.8 8.44H6.87V16H4.89V8.44H2V7h7.8zM13.5 7l2.46 6.5L18.41 7H21v9h-2v-2.5l.22-4.26L16.63 16h-1.35L12.7 9.25l.2 4.25V16h-1.97V7z" />
+            </svg></h4>
+          <p>A warranty that not just covers <br>
+            Battery failure , but degradation too. <br>
+            If the battery State-of-Health falls <br>
+            below 70% , anytime in 5 years, we <br>
+            will replace it.</p>
+          <a href="">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em"
+              viewBox="0 0 32 32">
+              <path fill="white"
+                d="m18.72 6.78l-1.44 1.44L24.063 15H4v2h20.063l-6.782 6.78l1.44 1.44l8.5-8.5l.686-.72l-.687-.72z" />
+            </svg></a>
+        </div>
+        <div class="card2"><img src="Group_1856_1_990254338a.svg" alt="">
+          <h4>Ather Connect <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+              <path fill="white"
+                d="M9.8 8.44H6.87V16H4.89V8.44H2V7h7.8zM13.5 7l2.46 6.5L18.41 7H21v9h-2v-2.5l.22-4.26L16.63 16h-1.35L12.7 9.25l.2 4.25V16h-1.97V7z" />
+            </svg></h4>
+          <p>Unlock a master ride with Google <br>
+            Maps, multi-stop Trip Planner <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em"
+              viewBox="0 0 24 24">
+              <path fill="white"
+                d="M9.8 8.44H6.87V16H4.89V8.44H2V7h7.8zM13.5 7l2.46 6.5L18.41 7H21v9h-2v-2.5l.22-4.26L16.63 16h-1.35L12.7 9.25l.2 4.25V16h-1.97V7z" />
+            </svg>,<br>
+            Bluetooth call & music control, theft <br>
+            & tow alerts and a lot more.</p>
+          <a href="">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em"
+              viewBox="0 0 32 32">
+              <path fill="white"
+                d="m18.72 6.78l-1.44 1.44L24.063 15H4v2h20.063l-6.782 6.78l1.44 1.44l8.5-8.5l.686-.72l-.687-.72z" />
+            </svg></a>
+        </div>
+        <div class="card2"><img src="truck_tow_27ece527bd.svg" alt="">
+          <h4>Ather Roadside <br> Assistance</h4>
+          <p>24×7 emergency assistance in case of <br>
+            accident, breakdown, puncture or <br>
+            when your Ather runs out of charge. <br>
+            Ride worry-free.</p>
+          <a href="">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em"
+              viewBox="0 0 32 32">
+              <path fill="white"
+                d="m18.72 6.78l-1.44 1.44L24.063 15H4v2h20.063l-6.782 6.78l1.44 1.44l8.5-8.5l.686-.72l-.687-.72z" />
+            </svg></a>
+        </div>
+        <div class="card2"><img src="Hand holding heart.svg" alt="">
+          <h4>Ather Care</h4>
+          <p>Annual Maintenance Plans for an easy <br>
+            & reliable scooter service experience.</p>
+          <a href="">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em"
+              viewBox="0 0 32 32">
+              <path fill="white"
+                d="m18.72 6.78l-1.44 1.44L24.063 15H4v2h20.063l-6.782 6.78l1.44 1.44l8.5-8.5l.686-.72l-.687-.72z" />
+            </svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="stories">
+      <div class="story">
+        <h1>Stories at Ather</h1>
+      </div>
+      <div class="card mb-3" style="width: 500px; border:none;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="https://www.atherenergy.com/_next/image?url=https%3A%2F%2Fmedia.atherenergy.com%2FAther%2520DUO%2520Portable%2520Charger.webp&w=1920&q=75"
+              class="img-fluid rounded" style="width: 100%;" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 12px; display: flex; color: gray;">Abhishek <li>4 min read </li>
+                <li>24 Jun,2024</li>
+              </h5>
+              <p class="card-text">All You Need to Know About <br> Electric Scooter C...</p>
+              <p class="card-text"><small class="text-body-secondary">Discover the electric scooter charging cost in
+                  India wi...</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="width: 500px; border: none;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="Athercharger201.webp" class="img-fluid rounded" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 12px; display: flex; color: gray;">Garima P. <li>3 min read </li>
+                <li>24 Jun,2024</li>
+              </h5>
+              <p class="card-text">Safety Measures for Charging Your Electric Sc...</p>
+              <p class="card-text"><small class="text-body-secondary">Learn how to charge an electric scooter at home.
+                  Click...</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="width: 500px; border:none;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="Website20Movement2017.webp" class="img-fluid rounded" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 12px; display: flex; color: gray;">Atul Rajan <li>7 min read
+                </li>
+                <li>24 Jun,2024</li>
+              </h5>
+              <p class="card-text">How to Choose the Best Electric Scooter for W...</p>
+              <p class="card-text"><small class="text-body-secondary">Explore the things to consider before buying an
+                  electri...</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="width: 500px; border:none;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="Ather20Apex.webp" class="img-fluid rounded" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 12px; display: flex; color: gray;">Mathew J. <li>4 min read </li>
+                <li>24 Jun,2024</li>
+              </h5>
+              <p class="card-text">Things to Know about Ather 450 Apex Electric...</p>
+              <p class="card-text"><small class="text-body-secondary">Discover more about the Ather 450 Apex, the
+                  fastest ele...</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="blog"><a href="">View all blogs <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em"
+            viewBox="0 0 256 256">
+            <path fill="black"
+              d="m221.66 133.66l-72 72a8 8 0 0 1-11.32-11.32L196.69 136H40a8 8 0 0 1 0-16h156.69l-58.35-58.34a8 8 0 0 1 11.32-11.32l72 72a8 8 0 0 1 0 11.32" />
+          </svg></a></div>
+    </div>
+
+    <div class="exp">
+      <h1>Top up your Ather Experience</h1>
+      <div class="card-section">
+        <div class="card" style="width: 23rem; border: none;">
+          <img src="https://media.atherenergy.com/Smart%20Helmets%20-%20Desk.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title" style="font-weight: 400;">Smart Helmets</h2>
+            <p class="card-text" style="font-size: 13px;">Say Halo to an all-new helmet experience.</p>
+            <a href=""
+              style="color: black; line-height: 30px; border-bottom: 1px solid; font-size: 13px; text-decoration: none;">Explore
+              Smart Helmets <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 256 256">
+                <path fill="black"
+                  d="m221.66 133.66l-72 72a8 8 0 0 1-11.32-11.32L196.69 136H40a8 8 0 0 1 0-16h156.69l-58.35-58.34a8 8 0 0 1 11.32-11.32l72 72a8 8 0 0 1 0 11.32" />
+              </svg></a>
+          </div>
+        </div>
+        <div class="card" style="width: 23rem; border: none;">
+          <img src="https://media.atherenergy.com/Accessories%20-%20Desk.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title" style="font-weight: 400;">Accessories</h2>
+            <p class="card-text" style="font-size: 13px;">Wonderful. Purposeful</p>
+            <a href=""
+              style="color: black; line-height: 30px; border-bottom: 1px solid; font-size: 13px; text-decoration: none;">Shop
+              Accessories <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 256 256">
+                <path fill="black"
+                  d="m221.66 133.66l-72 72a8 8 0 0 1-11.32-11.32L196.69 136H40a8 8 0 0 1 0-16h156.69l-58.35-58.34a8 8 0 0 1 11.32-11.32l72 72a8 8 0 0 1 0 11.32" />
+              </svg></a>
+          </div>
+        </div>
+        <div class="card" style="width: 23rem; border: none;">
+          <img src="https://media.atherenergy.com/Ather%20Store%20Merchandise%20%281%29.png" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <h2 class="card-title" style="font-weight: 400;">Merch</h2>
+            <p class="card-text" style="font-size: 13px;">Apparel & Helmets.</p>
+            <a href=""
+              style="color: black; line-height: 30px; border-bottom: 1px solid; font-size: 13px; text-decoration: none;">Shop
+              Merch <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 256 256">
+                <path fill="black"
+                  d="m221.66 133.66l-72 72a8 8 0 0 1-11.32-11.32L196.69 136H40a8 8 0 0 1 0-16h156.69l-58.35-58.34a8 8 0 0 1 11.32-11.32l72 72a8 8 0 0 1 0 11.32" />
+              </svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wish-section">
+      <div class="wish-card">
+        <h3>Wish to know more about Ather?</h3>
+        <p>
+          The best thing about Ather can't be put in words, or captured in images. We'll take <br>
+          up all your questions, just drop us your number. We'll call you.
+        </p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 256 256">
+          <path fill="white"
+            d="m244.24 75.76l-32-32a6 6 0 0 0-8.48 8.48L225.51 74H208c-48 0-59.44 27.46-69.54 51.69c-9.43 22.64-17.66 42.33-53 44.16a38 38 0 1 0 .06 12c43.34-2.06 54.29-28.29 64-51.55C159.44 106.53 168 86 208 86h17.51l-21.75 21.76a6 6 0 1 0 8.48 8.48l32-32a6 6 0 0 0 0-8.48M48 202a26 26 0 1 1 26-26a26 26 0 0 1-26 26" />
+        </svg>
+        <button class="touch">Get in touch</button>
+      </div>
+    </div>
+
+    <div class="quest">
+      <div class="scroll-container">
+        <div class="fixed-text">
+          <h1>Your questions, <br>
+            answered</h1>
+        </div>
+      </div>
+      <div class="questions">
+        <div class="charge">
+          <span>
+            <h5>How do I charge an electric scooter? </h5><svg xmlns="http://www.w3.org/2000/svg" width="2em2em"
+              viewBox="0 0 16 16">
+              <path fill="black" d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+            </svg>
+          </span>
+          <p>
+
+            Ather has the largest EV two-wheeler Fast charging grid network in India. There are 3 ways to <br>
+            charge an Ather EV Electric Scooter. The first is with the portable charger provided with your <br>
+            Ather scooter that can be plugged into any 5 amp socket at home, just like you charge your <br>
+            mobile phone. The second is through 2500*+ fast-charging grids across the country that can <br>
+            give you up to 15 kms range for every 10 minutes of charging. The third is at public spaces like <br>
+            apartment complexes, malls, university campuses and office buildings where Ather <br>
+            Neighbourhood charges are installed. To request for one to be installed in your building, <br>
+            contact us <a href="">here</a>.</p>
+        </div>
+        <span>
+          <h5>Can I use an electric scooter if I live in an apartment?
+          </h5> <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+            <path fill="black"
+              d="M18 12.998h-5v5a1 1 0 0 1-2 0v-5H6a1 1 0 0 1 0-2h5v-5a1 1 0 0 1 2 0v5h5a1 1 0 0 1 0 2" />
+          </svg>
+        </span>
+        <span>
+          <h5>Do I need a Drivers’ License, Helmet and Registration to use an <br>
+            electric scooter?
+          </h5> <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+            <path fill="black"
+              d="M18 12.998h-5v5a1 1 0 0 1-2 0v-5H6a1 1 0 0 1 0-2h5v-5a1 1 0 0 1 2 0v5h5a1 1 0 0 1 0 2" />
+          </svg>
+        </span>
+        <span>
+          <h5>Why do Electric Scooters have riding modes?
+          </h5> <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+            <path fill="black"
+              d="M18 12.998h-5v5a1 1 0 0 1-2 0v-5H6a1 1 0 0 1 0-2h5v-5a1 1 0 0 1 2 0v5h5a1 1 0 0 1 0 2" />
+          </svg>
+        </span>
+        <span>
+          <h5>What is the cost of charging an electric scooter?
+          </h5> <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+            <path fill="black"
+              d="M18 12.998h-5v5a1 1 0 0 1-2 0v-5H6a1 1 0 0 1 0-2h5v-5a1 1 0 0 1 2 0v5h5a1 1 0 0 1 0 2" />
+          </svg>
+        </span>
+        <span>
+          <h5>Do I ever need to replace an electric scooter’s battery?
+          </h5> <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+            <path fill="black"
+              d="M18 12.998h-5v5a1 1 0 0 1-2 0v-5H6a1 1 0 0 1 0-2h5v-5a1 1 0 0 1 2 0v5h5a1 1 0 0 1 0 2" />
+          </svg>
+        </span>
+        <span>
+          <h5>Can electric scooters be used in the rain?
+          </h5> <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+            <path fill="black"
+              d="M18 12.998h-5v5a1 1 0 0 1-2 0v-5H6a1 1 0 0 1 0-2h5v-5a1 1 0 0 1 2 0v5h5a1 1 0 0 1 0 2" />
+          </svg>
+        </span>
+        <h5 style="margin-top: 30px;">Can’t find what you’re looking for?</h5>
+        <h5>Visit out <a href="">FAQs page</a></h5>
+      </div>
+    </div>
+
+      <div class="disclaimer">
+        <p>Disclaimer: All specifications/figures are indicative only and subject to requisite certification(s). Declared certified range figures are as per ARAI IDC standard testing conditions and TrueRange of 110 km or 90 km is applicable <br>
+         on SmartEco riding mode, actual performance figures may vary depending on various conditions including driving patterns etc. Degradation/performance of the battery shall be solely determined by Ather. Ather may form <br>
+          partnerships or alliances with third parties from time to time in order to facilitate the provision of its products and services.  Specifications, pricing and product availability are subject to change without notice. Prices shown for <br>
+           Pro and Ather Battery Protect are discounted and will be applicable only if the customer purchases them along with the scooter. Images shown on the website are for representation purposes only. To know more about the <br>
+           inclusions refer to the Specifications or visit your nearest Ather Space. EMI cashback applicable on select credit card purchases. To know all about the current offering/pricing, change in product configurations and inclusions <br>
+            get in touch with your nearest Ather Space. Please follow applicable laws while using the vehicle. Ather Energy's trademarks are listed at  <a href="">https://www.atherenergy.com/trademarks</a>. All third party trademarks (including words, <br>
+             logos and icons) referenced by Ather Energy Limited (formerly known as Ather Energy Private Limited) remain the property of their respective owners. Ather Grid map shown is only indicative and not an exact representation of <br>
+             the GPS coordinates of the Ather Grid locations. *Average duration of a single blink = 0.1-0.4 seconds (Source: Schiffman, H.R., Sensation and Perception. An Integrated Approach, New York: John Wiley and Sons, Inc., 2001) <br>
+              **Based on internal testing# This is not an alternative to braking. Applying brakes wherever necessary is recommended. Image shown is for representation purpose only, actual Helmet may vary. *The offer amount indicates the <br>
+               maximum discount on Select Models and may vary from Location to Location.</p>
+      </div>
+
+      <div class="caution">
+        <div class="logo">
+          <img src="bullhorn.svg" alt="">
+          <h6>Caution Notice</h6>
+        </div>
+        <div class="beware">
+          <p>Beware of scammers in Ather’s clothing. Don’t get tricked into frauds.</p>
+        </div>
+        <div class="learn">
+          <a href="">Learn more about this <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 32 32">
+            <path fill="black"
+              d="m18.72 6.78l-1.44 1.44L24.063 15H4v2h20.063l-6.782 6.78l1.44 1.44l8.5-8.5l.686-.72l-.687-.72z" />
+          </svg></a>
+        </div>
+      </div>
+      <div class="last-section">
+       <div class="first-list">
+        <div class="li1">
+          <label for="">
+            Electric Scooters
+          </label>
+          <li>Ather Rizta <em>New</em></li>
+          <li>Ather 450 Apex</li>
+          <li>Ather 450X</li>
+          <li>Ather 450S</li>
+          <li>Book Test Ride</li>
+          <li>Locate Dealers</li>
+          <li>Compare Models</li>
+        </div>
+        <div class="li2">
+           <label for="">
+            Buy Electric Scooters
+  </label>          
+          <li>Book Ather Scooter</li>
+          <li>EMI Calculator</li>
+          <li>Pricing</li>
+          <li>Charging</li>
+          <li>Flexipay</li>
+        </div>
+        <div class="li3">
+          <label for="">
+            Ownership
+          </label>
+          <li>Ownership Cost Calculator</li>
+          <li>Smart Helmets</li>
+          <li>Accessories</li>
+          <li>Merchandise</li>
+          <li>Ather Battery Protect <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+            <path fill="white" d="M9.8 8.44H6.87V16H4.89V8.44H2V7h7.8zM13.5 7l2.46 6.5L18.41 7H21v9h-2v-2.5l.22-4.26L16.63 16h-1.35L12.7 9.25l.2 4.25V16h-1.97V7z" />
+          </svg></li>
+          <li>Ather Connect</li>
+        </div>
+        <div class="li4">
+          <label for="">
+            Investor Relations
+          </label>
+          <li>DRHP Documents</li>
+          <li>Financials </li>
+          <li>Governance</li>
+          <li>Contact Details</li>
+        </div>
+        <div class="li5">
+          <label for="">
+            About Us
+          </label>
+          <li>Story</li>
+          <li>Blogs</li>
+          <li>Community</li>
+          <li>Press</li>
+          <li>Careers</li>
+        </div>
+        <div class="li6">
+  <label for="">
+        Support
+  </label>      
+        <li>FAQs</li>
+        <li>Contact Us</li>
+        <li>Sitemap</li>    
+        </div>
+       </div>
+       <div class="second-list">
+        <li>Electric Scooter in Bengaluru</li>
+        <li>Electric Scooter in Chennai</li>
+        <li>Electric Scooter in Hyderabad</li>
+        <li>Electric Scooter in Delhi</li>
+        <li>Electric Scooter in Mumbai</li>
+        <li>Electric Scooter in Kolkata</li>
+       </div>
+
+       <div class="third-list">
+        <div class="logo2">
+          <img src="logo.png" alt="">
+        </div>
+        <div class="li7">
+          <li>Refund Policy</li>
+          <li>Warranty</li>
+          <li>Subscription</li>
+          <li>Corporate</li>
+          <li>Trademarks</li>
+          <li>Code of Ethics</li>
+          <li>Terms</li>
+          <li>Privacy Policy</li>
+          <li>Bug Bounty</li>
+          <li>Credit usage policy</li>
+          <img src="flag-india.svg" alt="">
+        </div>
+       </div>
+       <div class="para">
+        <div class="left">
+          <p><em style="font-style: normal;">Registered Office Address </em><br>
+            Ather Energy Limited (formerly known as Ather Energy Private Limited), 3rd Floor, Tower D, IBC Knowledge Park, #4/1, Bannerghatta Main Road, Bangalore, Karnataka 560029, India</p>
+            <p>Tel No: <em>+91-7676600900</em>
+              Contact Person: Manager - Customer Services
+              For Customer Support please write to : <em>customercare@atherenergy.com</em>
+              Need more information or have a query? Feel free to <a href="">Contact us.</a></p>
+              <p><em>Corporate Identification Number (CIN)</em> <br>
+                U40100KA2013PLC093769</p>
+        </div>
+        <div class="right">
+          <div class="icon">
+            <i class="fa-brands fa-square-instagram" style="color: #7b7b7b;"></i>
+            <i class="fa-brands fa-square-x-twitter" style="color: #7b7b7b;"></i>
+            <i class="fa-brands fa-youtube" style="color: #7b7b7b;"></i>
+            <i class="fa-brands fa-square-facebook" style="color: #7b7b7b;"></i>
+            <i class="fa-brands fa-linkedin" style="color: #7b7b7b;"></i>
+          </div>
+          <div class="info">
+            <p>All information is subject to specific conditions. <br>
+              © 2024 Ather Energy. All rights reserved</p>
+          </div>
+        </div>
+       </div>
+
+      </div>
+
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+<script>
+  AOS.init();
+</script>
+
+</html>
