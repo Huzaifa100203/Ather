@@ -617,4 +617,298 @@
         text-align: right;
     }
 }
- 
+ @media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left-bar, .right-bar {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  .carousel-caption h1 {
+    font-size: 24px;
+  }
+
+  .carousel-caption h4 {
+    font-size: 16px;
+  }
+
+  .carousel-caption button {
+    width: 100px;
+    height: 40px;
+  }
+
+  .thrill h1 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .thrill p {
+    font-size: 14px;
+  }
+
+  .pick-section div {
+    font-size: 32px;
+  }
+
+  .top-card, .bottom-card {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-card .card, .bottom-card .card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .space-section .box {
+    width: 90%;
+    padding: 20px;
+    top: 150px;
+  }
+
+  .ownership h1 {
+    font-size: 32px;
+  }
+
+  .grid {
+    width: 90%;
+  }
+
+  .card2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .stories .card {
+    width: 90%;
+  }
+
+  .exp h1 {
+    font-size: 32px;
+  }
+
+  .card-section .card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .wish-card {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .quest .fixed-text h1 {
+    font-size: 32px;
+  }
+
+  .questions span h5 {
+    font-size: 16px;
+  }
+
+  .questions span svg {
+    width: 1em;
+    height: 1em;
+  }
+
+  .disclaimer p {
+    font-size: 8px;
+  }
+
+  .caution {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .logo, .beware, .learn {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .last-section {
+    padding: 20px;
+  }
+
+  .first-list, .second-list, .third-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .first-list div, .second-list li, .third-list .li7 li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .para {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left, .right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .right .icon i {
+    font-size: 16px;
+  }
+
+  .right .info p {
+    font-size: 8px;
+  }
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .left-bar, .right-bar {
+      width: 100%;
+      justify-content: center;
+      padding: 10px 0;
+    }
+  
+    .carousel-caption h1 {
+      font-size: 28px;
+    }
+  
+    .carousel-caption h4 {
+      font-size: 18px;
+    }
+  
+    .carousel-caption button {
+      width: 120px;
+      height: 45px;
+    }
+  
+    .thrill h1 {
+      font-size: 36px;
+      line-height: 55px;
+    }
+  
+    .thrill p {
+      font-size: 16px;
+    }
+  
+    .pick-section div {
+      font-size: 36px;
+    }
+  
+    .top-card, .bottom-card {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .top-card .card, .bottom-card .card {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    .space-section .box {
+      width: 90%;
+      padding: 20px;
+      top: 150px;
+    }
+  
+    .ownership h1 {
+      font-size: 36px;
+    }
+  
+    .grid {
+      width: 90%;
+    }
+  
+    .card2 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .stories .card {
+      width: 90%;
+    }
+  
+    .exp h1 {
+      font-size: 36px;
+    }
+  
+    .card-section .card {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    .wish-card {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .quest .fixed-text h1 {
+      font-size: 36px;
+    }
+  
+    .questions span h5 {
+      font-size: 18px;
+    }
+  
+    .questions span svg {
+      width: 1.2em;
+      height: 1.2em;
+    }
+  
+    .disclaimer p {
+      font-size: 10px;
+    }
+  
+    .caution {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .logo, .beware, .learn {
+      width: 100%;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .last-section {
+      padding: 20px;
+    }
+  
+    .first-list, .second-list, .third-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .first-list div, .second-list li, .third-list .li7 li {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .para {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .left, .right {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .right .icon i {
+      font-size: 18px;
+    }
+  
+    .right .info p {
+      font-size: 10px;
+    }
+  }
